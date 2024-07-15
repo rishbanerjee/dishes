@@ -66,7 +66,7 @@ function DishList() {
                             <h2>{dish.dishName}</h2>
                             <p>Published: {dish.isPublished.toString()}</p>
                         </div>
-                        <button onClick={() => togglePublish(dish._id)}>Toggle Publish</button>
+                        <button onClick={() => togglePublish(dish._id)}>Publish</button>
                     </li>
                 ))}
             </ul>
